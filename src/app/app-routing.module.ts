@@ -5,7 +5,8 @@ import { NavbarComponent } from './Components/Navbar/navbar/navbar.component';
 
 const routes: Routes = [ { path: 'login', component: LoginComponent },
     { path: 'nav', component: NavbarComponent },
-// { path: '',   redirectTo: '/first-component', pathMatch: 'full' }, // redirect to `first-component`
+  
+//{ path: '',   redirectTo: '/login', pathMatch: 'full' }, // redirect to `first-component`
 // { path: '**', component: PageNotFoundComponent }, ] // Wildcard route for a 404 page];
 ]
 @NgModule({

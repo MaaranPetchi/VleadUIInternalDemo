@@ -19,7 +19,7 @@ export class NavbarComponent implements OnInit {
     this.logoutService.logout().subscribe(
       response => {
         // do something with the response if needed
-        this.router.navigate(['/']);
+        this.router.navigate(['/login']);
       },
       error => {
         // handle the error if needed

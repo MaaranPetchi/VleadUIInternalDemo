@@ -10,6 +10,6 @@ export class LogoutService {
   constructor(private http: HttpClient) { }
 
   logout(): Observable<any> {
-    return this.http.post('/api/logout', {});
+    return this.http.get('https://localhost:7208/api/Account/logout', {});
   }
 }

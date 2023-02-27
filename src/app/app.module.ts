@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './Components/Login/login/login.component';
 import {HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { NavbarComponent } from './Components/Navbar/navbar/navbar.component';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EmployeecontrollerModule } from './Modules/EmployeeControllerModule/employeecontroller/employeecontroller.module';
 
@@ -13,7 +13,7 @@ import { EmployeecontrollerModule } from './Modules/EmployeeControllerModule/emp
   declarations: [
     AppComponent,
     LoginComponent,
-    NavbarComponent
+  
   ],
   imports: [
     BrowserModule,

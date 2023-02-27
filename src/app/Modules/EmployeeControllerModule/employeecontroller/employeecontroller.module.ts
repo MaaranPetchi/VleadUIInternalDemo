@@ -29,9 +29,10 @@ import { MatStepperModule } from '@angular/material/stepper';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { AddEditEmployeecontrollerComponent } from 'src/app/Components/EmployeeController/Components/add-edit-employeecontroller/add-edit-employeecontroller.component';
 import { EmployeecontrollerComponent } from 'src/app/Components/EmployeeController/Components/employeecontroller/employeecontroller.component';
+import { NavbarComponent } from 'src/app/Components/Navbar/navbar/navbar.component';
 
 @NgModule({
-  declarations: [AddEditEmployeecontrollerComponent, EmployeecontrollerComponent],
+  declarations: [AddEditEmployeecontrollerComponent, EmployeecontrollerComponent,NavbarComponent],
   imports: [
     CommonModule,
     EmployeecontrollerRoutingModule,

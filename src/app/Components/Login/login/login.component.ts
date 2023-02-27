@@ -17,7 +17,7 @@ export class LoginComponent {
   onSubmit() {
     this.loginservice.login(this.username, this.password).subscribe(result => {
       if (result) {
-        this.router.navigate(['/dashboard']);
+        this.router.navigate(['/indexemp']);
       }
     });
   }

@@ -6,11 +6,17 @@ import { Injectable } from '@angular/core';
 })
 export class LoginService {
 
-  private apiUrl = 'http://example.com/api';
+  private apiUrl = 'https://localhost:7208/api/Account/externalLogin';
 
   constructor(private http: HttpClient) {}
 
   login(username: string, password: string) {
-    return this.http.post<any>(`${this.apiUrl}/login`, { username, password });
+    return this.http.post<any>(`${this.apiUrl}`, { username, password });
   }
+
+
+
+
+
+  
 }
